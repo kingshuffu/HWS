@@ -8,17 +8,43 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var tasqManager = TasqManager()
+    @State private var addViewToggle = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+                TaskListView(tasqManager: tasqManager)
+                    .navigationBarTitle("Tasq")
+                    .toolbar{
+                        Button("Add Task"){
+                            addViewToggle = true
+                        }
+                    }
+                    .sheet(isPresented: $addViewToggle){
+                        AddTaskView(tasqManager: tasqManager)
+                            .padding()
+                    }
         }
-        .padding()
     }
+    
 }
 
-#Preview {
-    ContentView()
+//#Preview {
+//    ContentView()
+//}
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        let testTasqs = [
+            Tasq(title: "Task 1", desc: "Description 1", isCompleted: false),
+            Tasq(title: "Task 2", desc: "Description 2", isCompleted: true),
+            Tasq(title: "Task 3", desc: "Description 3", isCompleted: false)
+        ]
+        
+        let tasqManager = TasqManager()
+        tasqManager.tasqs = testTasqs
+        
+        return ContentView(tasqManager: tasqManager)
+    }
 }

@@ -7,34 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CE22F6B2AF6F97200BC814D /* Traqer1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F6A2AF6F97200BC814D /* Traqer1App.swift */; };
-		3CE22F6D2AF6F97200BC814D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F6C2AF6F97200BC814D /* ContentView.swift */; };
-		3CE22F6F2AF6F97300BC814D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE22F6E2AF6F97300BC814D /* Assets.xcassets */; };
-		3CE22F722AF6F97300BC814D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE22F712AF6F97300BC814D /* Preview Assets.xcassets */; };
-		3CE22F792AF6FA3600BC814D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F782AF6FA3600BC814D /* Task.swift */; };
-		3CE22F7B2AF6FFBB00BC814D /* TasqManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F7A2AF6FFBB00BC814D /* TasqManager.swift */; };
-		3CE22F7D2AF7013200BC814D /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F7C2AF7013200BC814D /* TaskListView.swift */; };
-		3CE22F7F2AF7054500BC814D /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F7E2AF7054500BC814D /* TaskRowView.swift */; };
-		3CE22F812AF70FA600BC814D /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F802AF70FA600BC814D /* TaskDetailView.swift */; };
-		3CE22F832AF7553800BC814D /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE22F822AF7553800BC814D /* AddTaskView.swift */; };
+		3C762A422AFAA7CD000B933E /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C762A412AFAA7CD000B933E /* CupcakeCornerApp.swift */; };
+		3C762A442AFAA7CD000B933E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C762A432AFAA7CD000B933E /* ContentView.swift */; };
+		3C762A462AFAA7CE000B933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C762A452AFAA7CE000B933E /* Assets.xcassets */; };
+		3C762A492AFAA7CE000B933E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C762A482AFAA7CE000B933E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3CE22F672AF6F97200BC814D /* Traqer1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traqer1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CE22F6A2AF6F97200BC814D /* Traqer1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traqer1App.swift; sourceTree = "<group>"; };
-		3CE22F6C2AF6F97200BC814D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3CE22F6E2AF6F97300BC814D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3CE22F712AF6F97300BC814D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3CE22F782AF6FA3600BC814D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		3CE22F7A2AF6FFBB00BC814D /* TasqManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasqManager.swift; sourceTree = "<group>"; };
-		3CE22F7C2AF7013200BC814D /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
-		3CE22F7E2AF7054500BC814D /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
-		3CE22F802AF70FA600BC814D /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
-		3CE22F822AF7553800BC814D /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		3C762A3E2AFAA7CD000B933E /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C762A412AFAA7CD000B933E /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
+		3C762A432AFAA7CD000B933E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C762A452AFAA7CE000B933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C762A482AFAA7CE000B933E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C762A4F2AFC95F9000B933E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CE22F642AF6F97200BC814D /* Frameworks */ = {
+		3C762A3B2AFAA7CD000B933E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,43 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CE22F5E2AF6F97200BC814D = {
+		3C762A352AFAA7CD000B933E = {
 			isa = PBXGroup;
 			children = (
-				3CE22F692AF6F97200BC814D /* Traqer1 */,
-				3CE22F682AF6F97200BC814D /* Products */,
+				3C762A4F2AFC95F9000B933E /* MyPlayground.playground */,
+				3C762A402AFAA7CD000B933E /* CupcakeCorner */,
+				3C762A3F2AFAA7CD000B933E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3CE22F682AF6F97200BC814D /* Products */ = {
+		3C762A3F2AFAA7CD000B933E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3CE22F672AF6F97200BC814D /* Traqer1.app */,
+				3C762A3E2AFAA7CD000B933E /* CupcakeCorner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3CE22F692AF6F97200BC814D /* Traqer1 */ = {
+		3C762A402AFAA7CD000B933E /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
-				3CE22F6A2AF6F97200BC814D /* Traqer1App.swift */,
-				3CE22F6C2AF6F97200BC814D /* ContentView.swift */,
-				3CE22F822AF7553800BC814D /* AddTaskView.swift */,
-				3CE22F782AF6FA3600BC814D /* Task.swift */,
-				3CE22F7A2AF6FFBB00BC814D /* TasqManager.swift */,
-				3CE22F7C2AF7013200BC814D /* TaskListView.swift */,
-				3CE22F7E2AF7054500BC814D /* TaskRowView.swift */,
-				3CE22F802AF70FA600BC814D /* TaskDetailView.swift */,
-				3CE22F6E2AF6F97300BC814D /* Assets.xcassets */,
-				3CE22F702AF6F97300BC814D /* Preview Content */,
+				3C762A412AFAA7CD000B933E /* CupcakeCornerApp.swift */,
+				3C762A432AFAA7CD000B933E /* ContentView.swift */,
+				3C762A452AFAA7CE000B933E /* Assets.xcassets */,
+				3C762A472AFAA7CE000B933E /* Preview Content */,
 			);
-			path = Traqer1;
+			path = CupcakeCorner;
 			sourceTree = "<group>";
 		};
-		3CE22F702AF6F97300BC814D /* Preview Content */ = {
+		3C762A472AFAA7CE000B933E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3CE22F712AF6F97300BC814D /* Preview Assets.xcassets */,
+				3C762A482AFAA7CE000B933E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,39 +72,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3CE22F662AF6F97200BC814D /* Traqer1 */ = {
+		3C762A3D2AFAA7CD000B933E /* CupcakeCorner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CE22F752AF6F97300BC814D /* Build configuration list for PBXNativeTarget "Traqer1" */;
+			buildConfigurationList = 3C762A4C2AFAA7CE000B933E /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
 			buildPhases = (
-				3CE22F632AF6F97200BC814D /* Sources */,
-				3CE22F642AF6F97200BC814D /* Frameworks */,
-				3CE22F652AF6F97200BC814D /* Resources */,
+				3C762A3A2AFAA7CD000B933E /* Sources */,
+				3C762A3B2AFAA7CD000B933E /* Frameworks */,
+				3C762A3C2AFAA7CD000B933E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Traqer1;
-			productName = Traqer1;
-			productReference = 3CE22F672AF6F97200BC814D /* Traqer1.app */;
+			name = CupcakeCorner;
+			productName = CupcakeCorner;
+			productReference = 3C762A3E2AFAA7CD000B933E /* CupcakeCorner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3CE22F5F2AF6F97200BC814D /* Project object */ = {
+		3C762A362AFAA7CD000B933E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					3CE22F662AF6F97200BC814D = {
+					3C762A3D2AFAA7CD000B933E = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 3CE22F622AF6F97200BC814D /* Build configuration list for PBXProject "Traqer1" */;
+			buildConfigurationList = 3C762A392AFAA7CD000B933E /* Build configuration list for PBXProject "CupcakeCorner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,48 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 3CE22F5E2AF6F97200BC814D;
-			productRefGroup = 3CE22F682AF6F97200BC814D /* Products */;
+			mainGroup = 3C762A352AFAA7CD000B933E;
+			productRefGroup = 3C762A3F2AFAA7CD000B933E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3CE22F662AF6F97200BC814D /* Traqer1 */,
+				3C762A3D2AFAA7CD000B933E /* CupcakeCorner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3CE22F652AF6F97200BC814D /* Resources */ = {
+		3C762A3C2AFAA7CD000B933E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE22F722AF6F97300BC814D /* Preview Assets.xcassets in Resources */,
-				3CE22F6F2AF6F97300BC814D /* Assets.xcassets in Resources */,
+				3C762A492AFAA7CE000B933E /* Preview Assets.xcassets in Resources */,
+				3C762A462AFAA7CE000B933E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CE22F632AF6F97200BC814D /* Sources */ = {
+		3C762A3A2AFAA7CD000B933E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE22F812AF70FA600BC814D /* TaskDetailView.swift in Sources */,
-				3CE22F7B2AF6FFBB00BC814D /* TasqManager.swift in Sources */,
-				3CE22F6D2AF6F97200BC814D /* ContentView.swift in Sources */,
-				3CE22F832AF7553800BC814D /* AddTaskView.swift in Sources */,
-				3CE22F7D2AF7013200BC814D /* TaskListView.swift in Sources */,
-				3CE22F792AF6FA3600BC814D /* Task.swift in Sources */,
-				3CE22F7F2AF7054500BC814D /* TaskRowView.swift in Sources */,
-				3CE22F6B2AF6F97200BC814D /* Traqer1App.swift in Sources */,
+				3C762A442AFAA7CD000B933E /* ContentView.swift in Sources */,
+				3C762A422AFAA7CD000B933E /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3CE22F732AF6F97300BC814D /* Debug */ = {
+		3C762A4A2AFAA7CE000B933E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		3CE22F742AF6F97300BC814D /* Release */ = {
+		3C762A4B2AFAA7CE000B933E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,14 +266,14 @@
 			};
 			name = Release;
 		};
-		3CE22F762AF6F97300BC814D /* Debug */ = {
+		3C762A4D2AFAA7CE000B933E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Traqer1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,7 +286,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.king.Traqer1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,14 +294,14 @@
 			};
 			name = Debug;
 		};
-		3CE22F772AF6F97300BC814D /* Release */ = {
+		3C762A4E2AFAA7CE000B933E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Traqer1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -336,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.king.Traqer1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3CE22F622AF6F97200BC814D /* Build configuration list for PBXProject "Traqer1" */ = {
+		3C762A392AFAA7CD000B933E /* Build configuration list for PBXProject "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CE22F732AF6F97300BC814D /* Debug */,
-				3CE22F742AF6F97300BC814D /* Release */,
+				3C762A4A2AFAA7CE000B933E /* Debug */,
+				3C762A4B2AFAA7CE000B933E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CE22F752AF6F97300BC814D /* Build configuration list for PBXNativeTarget "Traqer1" */ = {
+		3C762A4C2AFAA7CE000B933E /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CE22F762AF6F97300BC814D /* Debug */,
-				3CE22F772AF6F97300BC814D /* Release */,
+				3C762A4D2AFAA7CE000B933E /* Debug */,
+				3C762A4E2AFAA7CE000B933E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3CE22F5F2AF6F97200BC814D /* Project object */;
+	rootObject = 3C762A362AFAA7CD000B933E /* Project object */;
 }

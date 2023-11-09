@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Tasq: Codable, Identifiable, Equatable{
+    var id = UUID()
+    var title: String
+    var desc: String
+    var isCompleted: Bool
+    
+}
+

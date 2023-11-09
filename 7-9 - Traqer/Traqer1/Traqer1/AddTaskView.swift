@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct AddTaskView: View {
+    @ObservedObject var tasqManager: TasqManager
+    @Environment(\.dismiss) var dismiss
+    
+    @State private var newName = ""
+    @State private var newDesc = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            TextField("Enter name", text: $newName)
+            TextField("Enter desc", text: $newDesc)
+            
+            Spacer()
+            
+            Button("Add Tasq"){
+                let newTasq = Tasq(title: newName, desc: newName, isCompleted: false)
+                tasqManager.addTasq(title: newTasq.title, desc: newDesc.description)
+                dismiss()
+                
+            }
+        }
     }
 }
 
-#Preview {
-    AddTaskView()
-}
+//#Preview {
+//    AddTaskView()
+//}
