@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct AddressView: View {
-    @ObservedObject var order: Order
-    
+    @ObservedObject var order: ClassOrder
+    @State private var isValid = true
     var body: some View {
         Form {
             Section {
                 TextField("Name", text: $order.name)
+//                    .onChange(of: order.name){ newValue in
+//                        //checking if trimmed array is not empty
+//                        isValid = !newValue.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+//                    }
                 TextField("Street Adress", text: $order.streetAdress)
                 TextField("City", text: $order.city)
                 TextField("Zip", text: $order.zip)
@@ -36,6 +40,6 @@ struct AddressView: View {
 
 #Preview {
     NavigationView{
-        AddressView(order: Order())
+        AddressView(order: ClassOrder())
     }
 }
