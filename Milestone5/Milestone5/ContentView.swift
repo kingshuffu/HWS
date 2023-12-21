@@ -13,17 +13,20 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             List(users){ user in
-                HStack {
-                    Text(user.name)
-                    
-                    Spacer ()
-                    
-                    Text(user.isActive ? "🟢" : " ")
+                NavigationLink(destination: UserDetailView(user: user)){
+                    HStack {
+                        Text(user.name)
+                        
+                        Spacer ()
+                        
+                        Text(user.isActive ? "🟢" : " ")
+                    }
                 }
-                
             }
             .task {
-                await loadData()
+                if users.isEmpty{
+                    await loadData()
+                }
             }
             .navigationTitle("Users 👥")
         }
